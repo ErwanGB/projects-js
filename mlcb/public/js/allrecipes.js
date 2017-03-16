@@ -2,12 +2,12 @@
 
     function init(){    
         getAllRecipes();
-        $(".getOneRecipe").on("click",getOneRecipe)
     }
 
 function getAllRecipes(){
+    console.log("so ?");
     var content ='<table>';
-    $.getJSON('/recipe/all', function(data){
+    $.getJSON('/recipe/allrecipes', function(data){
         $.each(data, function(){
                 content += "<tr data-id=" + this._id + ">",
                 content += "<td><a class='getOneRecipe'>" + this.name + "</a></td>"
@@ -20,8 +20,8 @@ function getAllRecipes(){
 }
 
 function getOneRecipe(){
-   var id = this.parent.attr('data-id');
-   console.log(id);
+   var id = $(this).parent().parent().attr("data-id");
+   window.location.href = "recipe/view/" + id
 }
 
 
