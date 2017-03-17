@@ -9,7 +9,6 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var recipe = require('./routes/recipe');
 
-
 var app = express();
 var db = require('./db')
 

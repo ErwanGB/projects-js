@@ -5,7 +5,7 @@
     }
 
 function getAllRecipes(){
-    console.log("so ?");
+    $("#container").empty(); 
     var content ='<table>';
     $.getJSON('/recipe/allrecipes', function(data){
         $.each(data, function(){
@@ -14,14 +14,26 @@ function getAllRecipes(){
                 content += "<td><button class='deleteBtn'>Supprimer</button></td>"
                 content += "</tr>"
         })
-        $("#container").html(content + "</table>");
-        $(".getOneRecipe").on("click",getOneRecipe)
+        $("#container").html(content + "</table>");    
+        $(".getOneRecipe").on("click",getOneRecipe);   
+        $(".deleteBtn").on("click",deleteOneRecipe);
     })
 }
 
 function getOneRecipe(){
-   var id = $(this).parent().parent().attr("data-id");
-   window.location.href = "recipe/view/" + id
+    var id = $(this).parent().parent().attr("data-id");
+    window.location.href = "/recipe/view/" + id
+}
+
+function deleteOneRecipe(){
+    var id = $(this).parent().parent().attr("data-id");
+    $.ajax({
+        url: '/recipe/'+ id + '/del',
+        type: 'DELETE',
+        complete: function(){
+            getAllRecipes();
+        }
+    });
 }
 
 
