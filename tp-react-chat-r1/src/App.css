@@ -1,0 +1,44 @@
+body{
+  background:#666;
+}
+
+ul{
+  list-style:none;
+  padding:0px;
+  margin:0px;
+}
+
+ul li{
+  border-top: solid 1px #ddd;
+  padding:2px 5px;
+}
+
+ul li:first-child{
+  border-top:0;
+}
+
+.App{
+  width:800px;
+  margin:auto;
+  background:#FFF;
+  border:solid 1px #333;
+}
+
+.MessageForm{
+  padding:5px 2px;
+  background:#297AE8;
+}
+
+.MessageForm input[type=text]{
+  width:700px;
+  height:20px;
+}
+
+.MessageForm button{
+  height:26px;
+}
+
+.MessagesList{
+  min-height:400px;
+}
+

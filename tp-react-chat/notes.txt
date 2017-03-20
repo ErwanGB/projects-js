@@ -1,0 +1,23 @@
+TP-react
+
+modules : 
+create-react-app
+webpack
+
+
+
+Méthodes de composants.
+componentWillMount
+componentDidMount
+
+
+
+spread operator : ...
+
+var messages = ["foo","bar"]
+
+var message = "baz";
+
+// messages.push(message) Modifie le state donc non
+
+var newMessages = [...messages,message]
