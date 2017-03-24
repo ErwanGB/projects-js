@@ -1,0 +1,349 @@
+{
+    "version": "1",
+    "nb_results": 43,
+    "data": [{
+        "type_menu": "Menu standard",
+        "repas": "Salade verte au surimi<br/>Pilon de poulet confit<br/>Pommes noisettes<br/>Crème dessert vanille",
+        "date": {
+            "$date": "2017-02-28T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade de pommes de terre arlequin<br/>Sauté de boeuf marengo<br/>Haricots verts<br/>Faisselle<br/>Fruit",
+        "date": {
+            "$date": "2017-02-28T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade de mâche au gruyère<br/>Saucisse  de Toulouse bio<br/>Mogettes de Vendée<br/>Orange",
+        "date": {
+            "$date": "2017-03-01T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade de pommes de terre andalouse<br/>Aiguillette de poulet sauce aurore<br/>Jeunes carottes<br/>Camembert<br/>Abricot au sirop",
+        "date": {
+            "$date": "2017-03-02T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Tarte au fromage <br/>Rôti de boeuf*<br/>Haricots verts et haricots beurre<br/>Saint Paulin <br/>Banane<br/>-<br/><i>*Viande bovine française</i>",
+        "date": {
+            "$date": "2017-03-02T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Carottes choux blanc concombre vinaigrette<br/>Lieu sauce potiron<br/>semoule<br/>Petits suisses sucrés<br/>Compote pomme fraise",
+        "date": {
+            "$date": "2017-03-03T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade de riz<br>(riz, maïs, tomate; mimolette)<br>Poisson meunière<br>Gratin de choux-fleurs<br>Pomme bio°<br>-<br><i>°Produit bio des Pays de la Loire</i>",
+        "date": {
+            "$date": "2017-03-03T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade de pâtes Napoli<br/>pâtes, tomates, maïs, petits-pois<br/>Jambon fumé<br/>Clafoutis poireaux et carottes<br/>Camembert<br/>Orange",
+        "date": {
+            "$date": "2017-03-06T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Carottes maïs<br/>Blanquette de volaille<br/>Riz créole<br/>Petits suisses sucrés<br/>Compote pomme mirabelle",
+        "date": {
+            "$date": "2017-03-06T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "\"<span style=\"font-style: italic;\">Les parents des enfants qui ont un régime particulier, quel qu'il soit, doivent fournir le pique-nique de leur enfant\".</span>",
+        "date": {
+            "$date": "2017-03-07T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Tartithon<br>Raviolis aux légumes<br>Compote<br>",
+        "date": {
+            "$date": "2017-03-07T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Pizza<br>Sauté de dinde sauce curry fromage<br>Marmelade de pommes<br>Fromage fondu au chèvre<br>Banane",
+        "date": {
+            "$date": "2017-03-08T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Choux rouges bio°<br/>Sauté de boeuf* bourguignon<br/>Céréales gourmandes bio<br/>Crème dessert chocolat bio°<br/>-<br/><i>*Viande bovine française</i><br/><i>°Produit bio des Pays de la Loire</i>",
+        "date": {
+            "$date": "2017-03-09T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade potagère <br/>Sauté de porc au bleu<br/>Quinoa<br/>Fromage blanc sucré<br/>Fruit",
+        "date": {
+            "$date": "2017-03-09T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Pamplemousse<br/>Steak haché de boeuf sauce tomate<br/>Pommes de terre vapeur<br/>Crème pêche<br/>Fruit",
+        "date": {
+            "$date": "2017-03-10T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Roulé au fromage<br/>Omelette<br/>Brocolis à la provençale<br/>Fromage Belle de Nantes bio°<br/>Kiwi bio°<br/>-<br/><i>°Produit bio des Pays de la Loire</i>",
+        "date": {
+            "$date": "2017-03-10T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade coleslaw<br/>choux blancs et carottes râpées<br/>Hachis Parmentier*<br/>Yaourt fermier bio°<br/>Abricots secs<br/>-<br/><i>*Viande bovine française</i><br/><i>°Produit bio de Loire-Atlantique</i>",
+        "date": {
+            "$date": "2017-03-13T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Duo de crudité<br/>Lieu crème bretonne<br/>Pommes de terre béchamel<br/>Edam<br/>Compotée de pomme",
+        "date": {
+            "$date": "2017-03-13T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade de mâche au thon<br/>Saucisse  de Toulouse bio°<br/>Lentilles bio°<br/>Suisses aromatisés<br/>-<br/><i>°Produit bio de Vendée</i>",
+        "date": {
+            "$date": "2017-03-14T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade de riz maïs<br/>Sauté de porc williams<br/>Jeunes carottes<br/>Yaourt velouté<br/>Fruit",
+        "date": {
+            "$date": "2017-03-14T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Céleri  bio rémoulade<br/>Sauté de veau*<br/>Coquillettes bio<br/>Tomme noire<br/>Compote pomme et framboise<br/>-<br/><i>*Viande bovine française</i>",
+        "date": {
+            "$date": "2017-03-15T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Crêpe au fromage<br>Fricassée de poulet fermier d'Ancenis<br>Salsifis<br>Cantal<br>Orange",
+        "date": {
+            "$date": "2017-03-16T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Concombre vinaigrette<br/>Emincé de boeuf à la grecque<br/>Boulgour<br/>Crème au chocolat<br/>Compote de pomme",
+        "date": {
+            "$date": "2017-03-16T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Carottes rapées bio°<br/>Filet de lieu sauce nicoise<br/>Purée de légumes verts<br/>Fromage Chanteneige<br/>Eclair au chocolat<br/>-<br/><i>°Produit bio des Pays de la Loire</i>",
+        "date": {
+            "$date": "2017-03-17T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade de pommes de terre charcutière<br/>Steak haché de veau crème champignons<br/>Petits pois<br/>Gouda<br/>Fruit",
+        "date": {
+            "$date": "2017-03-17T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade de blé bio<br/>(blé bio, mais, tomates)<br/>Emincé de volaille au curry<br/>Poêlée de légumes<br/>Saint-Nectaire<br/>Salade de fruits frais",
+        "date": {
+            "$date": "2017-03-20T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Choux fleur vinaigrette<br/>Sauté de porc sauce soubise<br/>Lentilles<br/>Faiselle<br/>Fruit",
+        "date": {
+            "$date": "2017-03-20T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Quinoa aux petits légumes<br/>Escalope de volaille crème waterzoï<br/>Haricot beurre<br/>Petits suisses sucrés<br/>Compote de pêche",
+        "date": {
+            "$date": "2017-03-21T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Pizza<br/>Petits poissons panés<br/>Epinards<br/>Camembert<br/>Banane",
+        "date": {
+            "$date": "2017-03-21T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Pomelos<br/>Boulettes de boeuf* sauce au poivre<br/>Carottes bio<br/>Morbier<br/>Tarte normande aux pommes<br/>-<br/><i>*Viande bovine française</i>",
+        "date": {
+            "$date": "2017-03-22T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Choux blancs bio° à la mimolette<br/>Rôti de dinde au jus<br/>Pommes rissolées<br/>Flan au chocolat<br/>-<br/><i>°Produit bio des Pays de la Loire</i>",
+        "date": {
+            "$date": "2017-03-23T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade alsacienne<br/>Colin sauce dugléré<br/>Riz créole<br/>Brie<br/>Ananas au sirop",
+        "date": {
+            "$date": "2017-03-23T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade d'endives / demi-oeuf <br/>Galette de soja  tomate / basilic et sauce tomate<br/>Pâtes bio<br/>Yaourt aux fruits mixés",
+        "date": {
+            "$date": "2017-03-24T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Concombre maïs vinaigrette<br/>Hachis de carottes<br/>Fromage fondu<br/>Compote pomme cassis",
+        "date": {
+            "$date": "2017-03-24T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Guacamole  et tortillas<br/>Haché de poulet<br/>Petits-pois<br/>Gâteau marbré<br/>Lait bio",
+        "date": {
+            "$date": "2017-03-27T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Pamplemousse<br/>Emincé de porc sauce aigre douce<br/>Riz basmati<br/>Yaourt sucré<br/>Compote de poire",
+        "date": {
+            "$date": "2017-03-27T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade de pommes de terre vinaigrette<br/>Lieu crème basilic<br/>Choux fleur<br/>Saint Paulin<br/>Quetch au sirop",
+        "date": {
+            "$date": "2017-03-28T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Salade verte au surimi<br/>Sauté de porc°<br/>Pommes vapeur bio°<br/>Crème dessert caramel<br/>-<br/><i>°Produit Bleu/Blanc/Coeur</i><br/><i>°Produit bio de Vendée</i>",
+        "date": {
+            "$date": "2017-03-28T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Carottes rapées bio°<br/>Poisson meunière<br/>Blé bio et ratatouille<br/>Mimolette<br/>Orange",
+        "date": {
+            "$date": "2017-03-29T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Salade de haricot blanc à la toscane<br/>Blettes bolognaise<br/>Riz au lait<br/>Compote de pomme",
+        "date": {
+            "$date": "2017-03-30T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Mousse de foie bio° et cornichons<br/>Rôti de boeuf*<br/>Gratinée de légumes<br/>(brocolis, carottes, pommes de terre)<br/>Tomme blanche<br/>Pomme bio°<br/>-<br/><i>°Produit bio des Pays de la Loire</i><br/><i>*Viande bovine française</i>",
+        "date": {
+            "$date": "2017-03-30T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu standard",
+        "repas": "Dés de betteraves<br/>Filet de poisson au beurre blanc<br/>Riz<br/>Fromage Chaussée aux Moines<br/>Kiwi bio°<br/>-<br/><i>°Produit bio de Vendée</i>",
+        "date": {
+            "$date": "2017-03-31T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 1
+    }, {
+        "type_menu": "Menu allergique",
+        "repas": "Carottes râpées vinaigrette<br/>Sauté de volaille aux pêche<br/>Quinoa<br/>Petits suisses sucrés<br/>Fruit",
+        "date": {
+            "$date": "2017-03-31T00:00:00.000Z"
+        },
+        "commune": "Nantes",
+        "id_type_menu": 2
+    }]
+}

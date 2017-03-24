@@ -1,0 +1,23 @@
+h1{
+    color:#F00;
+}
+
+ul{
+    list-style:none;
+}
+
+ul li:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+ul li{
+    height:20px;
+    background:#ccc;
+    border-bottom:solid 1px #aaa;
+}
+
+.odd{
+    display:none;
+    color:#F00;
+}

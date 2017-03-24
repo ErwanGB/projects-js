@@ -1,0 +1,45 @@
+ <! DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Hôtel</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+        <article id="fiche" data-id='<%= data.recordid %>'>
+            <h1><%= data.fields.nom_commercial %> <%= data.fields.classement %></h1>
+            <div><%= data.fields.adresse %><br/><%= data.fields.code_postal %> <%= data.fields.commune %></div>
+            <div><%= data.fields.telephone %></div>
+            <div><%= data.fields.site_internet %></div>
+            <div>Nombre de chambres : <%= data.fields.capacite_d_accueil_personnes %><br/>
+            Capacité :  <%= data.fields.nombre_de_chambres %>;
+            <div>Lng : <%= data.fields.lng %> | Lat : <%= data.fields.lat %></div>
+            <a href="/">Retour à la liste des hôtels</a>
+            <a href="/hotels/<%= data.fields.code_postal %>">Les hôtels de la région</a>
+        </article>
+        <article id="comments"></article>
+        Laisser un commmentaire pour l'hôtel :<br/>
+        <form method="POST" id="addCommentForm">
+            Auteur <input type="text" name="auteur"/><br/>
+            Contenu <input type="textarea" name="contenu"/>
+            <button type="button" id="submitCommentBtn" class="btn btn-default">Envoyer</button>
+        </form>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/hotel.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

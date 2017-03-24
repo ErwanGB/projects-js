@@ -1,0 +1,12 @@
+<h1>
+  {{title}}
+</h1>
+<ul>
+  <li *ngFor="let contact of contacts">
+      {{contact}}
+  </li>
+</ul>
+<input [(ngModel)]="contact.id" type="text" />
+<input [(ngModel)]="contact.name" type="text" />
+<input [(ngModel)]="contact.address" type="text" />
+<input [(ngModel)]="contact.phone" type="text" />

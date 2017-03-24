@@ -8,12 +8,12 @@ ul{
   margin:0px;
 }
 
-ul li{
+.MessagesList ul li{
   border-top: solid 1px #ddd;
   padding:2px 5px;
 }
 
-ul li:first-child{
+.MessagesList ul li:first-child{
   border-top:0;
 }
 
@@ -27,6 +27,7 @@ ul li:first-child{
 .MessageForm{
   padding:5px 2px;
   background:#297AE8;
+  clear:both;
 }
 
 .MessageForm input[type=text]{
@@ -40,5 +41,18 @@ ul li:first-child{
 
 .MessagesList{
   min-height:400px;
+  width:700px;
+  float:left;
+}
+
+.UsersList{
+  width:100px;
+  float:left;
+  background:#ccc;
+  height:100%;
+}
+
+.msgTimeStamp{
+  color: blue;
 }
 

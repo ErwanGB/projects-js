@@ -1,0 +1,95 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size:1em;
+}
+
+h1{
+  font-weight:bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor:pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+body {
+  background-color:#cccccc;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#555;
+}
+
+#container{
+  width:900px;
+  background:#FFF;
+  margin:auto;
+  min-height:300px;
+  padding:10px;
+}
+
+header{
+  background: #406b8c;
+  color:#FFF;
+  padding:10px 30px;
+}
+
+.icon-star {
+  color: #ffd90d;
+}
+
+table{
+  border:1px solid #e5eff8;
+  margin:auto;
+  width:100%;
+}
+
+table tr td{
+  text-transform: lowercase;
+  border:1px solid #e5eff8;
+  padding:5px;
+
+}
+
+table tr:nth-child(odd){
+  background:#f8faff;
+}
+
+table tr td:first-letter{
+  text-transform : uppercase
+}
+
+article {
+  margin:auto;
+}
+
+#fiche{
+  background:#eeeeff;
+  padding:10px;
+}
+.comment{
+    border-top:1px solid #e5eff8;
+}
+
+.comment:nth-child(odd){
+   background:#f8faff
+}
+
+.comment span{
+  font-weight:bold;
+}
+
+#addCommentForm{
+  margin:20px 0px;
+  width:auto;
+}
+
+
+
